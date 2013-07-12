@@ -1,0 +1,96 @@
+/* 
+Theme Name: genesis
+Theme URI: conoz.ca
+Description: tema creado para genesis
+Version: 1.0
+Author: andres jaraba
+Author URI: conoz.ca
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+        font-family: arial,sans-serif;
+}
+:focus {/* remember to define focus styles! */
+	outline: 0;
+}
+body {
+background: #fff;
+background-image: url('images/fondo.png');
+background-repeat: repeat;
+background-position: top center;
+background-attachment: fixed;
+line-height: 1;
+        
+}
+#content{
+position: relative;
+width: 980px;
+height: 100%;
+height: auto;
+margin: auto;
+text-align: center;
+overflow: hidden;
+margin-bottom: 34px;
+border-left: 1px solid rgb(192, 192, 192);
+border-right: 1px solid rgb(192, 192, 192);
+
+}
+/*----------------------------------header---------------------------------*/
+#logo{
+    background-image: url('images/logo.png');
+background-repeat: no-repeat;
+height: 76px;
+width: 287px;
+float: left;
+margin: 13px 40px;    
+}
+li{
+    list-style: none;
+}
+.menu{
+    float: left;
+margin: 52px 8px;
+font-size: 14px;
+}
+#header{
+position: relative;
+overflow: hidden;
+height: 102px;
+border-bottom: 1px solid rgb(192, 192, 192);
+}
+/*_____________________page__________________________*/
+.bienvenida{
+position: relative;
+overflow: hidden;
+height: 100px;
+border-bottom: 1px solid rgb(192, 192, 192);
+font: 120% sans-serif small-caps;
+font-size: 62px;
+}
+#page{
+    height: 500px
+}
+/*---------------------------footer------------------*/
+#footer{
+    position: relative;
+overflow: hidden;
+height: 102px;
+border-bottom: 1px solid rgb(192, 192, 192);
+border-top:  1px solid rgb(192, 192, 192);
+
+}
